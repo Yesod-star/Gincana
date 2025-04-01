@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #ff5555;
+    --primary-hover: #ff0000;
+    --border-color: #ff5555;
+    --text-highlight: #ff0000;
+    --box-shadow: rgba(255, 0, 0, 0.5);
+    --text-clock: #fffb1e;
+}
+
+@font-face {
+    font-family: 'digital';
+    src: url('Fonts/DS-DIGI.TTF');
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    font-family: 'digital';;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+#title{
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 750px;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px var(--box-shadow);
+}
+
+.input-box {
+    width: 60px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #222;
+    color: white;
+}
+
+#timer {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--text-highlight);
+    font-family: 'Digital';
+}
+
+#time{
+    font-size: 4em;
+    color: var(--text-clock);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+#mensagem {
+    font-weight: bold;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    color: var(--text-highlight);
+}
