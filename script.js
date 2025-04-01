@@ -69,7 +69,7 @@ function verificarCodigo() {
 
         localStorage.setItem('tentativasRestantes', tentativasRestantes);
 
-        if (tentativasRestantes <= 0) {
+        if (tentativasRestantes < 0) {
             document.getElementById("mensagem").innerText = "A bomba explodiu!";
             clearInterval(timer); 
         } else {
