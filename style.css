@@ -36,7 +36,7 @@ body {
 
 .container {
     margin-top: 50px;
-    max-width: 720px;
+    max-width: 35vw;
     background: #1e1e1e;
     padding: 30px;
     border-radius: 10px;

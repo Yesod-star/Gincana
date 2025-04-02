@@ -1,10 +1,9 @@
-let tempoRestante = 3600;
-let tentativasRestantes = localStorage.getItem('tentativasRestantes') ? parseInt(localStorage.getItem('tentativasRestantes')) : 3; // Recupera as tentativas do localStorage ou usa 3 como padrão
-let timer; // Declare the timer variable globally
+let tempoRestante = localStorage.getItem('tempoRestante') ? parseInt(localStorage.getItem('tempoRestante')) : 3600;
+let tentativasRestantes = localStorage.getItem('tentativasRestantes') ? parseInt(localStorage.getItem('tentativasRestantes')) : 3;
+let timer;
 
 const codigoCriptografado = "MTIsMzQsNTYsNzgsOTAsMTE=";
 
-// Decode when needed
 function decodificarCodigo(base64) {
     return atob(base64).split(",");
 }
@@ -19,12 +18,13 @@ function formatarTempo(segundos) {
 
 function iniciarTimer() {
     document.getElementById("time").innerText = formatarTempo(tempoRestante);
-    timer = setInterval(() => {  // Use the global timer variable
+    timer = setInterval(() => {
         if (tempoRestante > 0) {
             tempoRestante--;
+            localStorage.setItem('tempoRestante', tempoRestante);
             document.getElementById("time").innerText = formatarTempo(tempoRestante);
         } else {
-            clearInterval(timer); // Stop the timer when it reaches 0
+            clearInterval(timer);
             document.getElementById("mensagem").innerText = "A bomba explodiu!";
         }
     }, 1000);
@@ -33,10 +33,8 @@ function iniciarTimer() {
 function verificarCodigo() {
     const inputs = document.querySelectorAll(".input-box");
     const tentativa = Array.from(inputs).map(input => input.value);
+    let bordas = [];
 
-    let bordas = [];  // Array para armazenar as cores das bordas
-
-    // Verificar se o código está correto e alterar as bordas dos inputs
     tentativa.forEach((valor, index) => {
         if (valor === codigoCorreto[index]) {
             bordas[index] = "green";
@@ -55,23 +53,23 @@ function verificarCodigo() {
         document.getElementById("mensagem").innerText = "Bomba desarmada com sucesso!";
         document.getElementById("successSound").play();
         changeToGreenTheme();
-        clearInterval(timer); 
-        localStorage.removeItem('tentativasRestantes'); 
+        clearInterval(timer);
+        localStorage.removeItem('tentativasRestantes');
+        localStorage.removeItem('tempoRestante');
     } else {
         document.getElementById("mensagem").innerText = "Código incorreto!";
-        if(tentativasRestantes > 0){
+        if (tentativasRestantes > 0) {
             document.getElementById("erroSound").play();
-        }else{
-            document.getElementById("failureSound").play(); 
+        } else {
+            document.getElementById("failureSound").play();
         }
 
         tentativasRestantes--;
-
         localStorage.setItem('tentativasRestantes', tentativasRestantes);
 
         if (tentativasRestantes < 0) {
             document.getElementById("mensagem").innerText = "A bomba explodiu!";
-            clearInterval(timer); 
+            clearInterval(timer);
         } else {
             document.getElementById("mensagem").innerText += ` Tentativas restantes: ${tentativasRestantes}`;
         }
@@ -87,4 +85,4 @@ function changeToGreenTheme() {
 }
 
 iniciarTimer();
-console.log("Inspecione o código fonte do site")
+console.log("Inspecione o código fonte do site");
