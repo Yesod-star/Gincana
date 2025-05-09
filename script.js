@@ -2,7 +2,7 @@ let tempoRestante = localStorage.getItem('tempoRestante') ? parseInt(localStorag
 let tentativasRestantes = localStorage.getItem('tentativasRestantes') ? parseInt(localStorage.getItem('tentativasRestantes')) : 3;
 let timer;
 
-const codigoCriptografado = "MTIsMzQsNTYsNzgsOTAsMTE=";
+const codigoCriptografado = "MTYsMjEsMzQsNTA=";
 
 function decodificarCodigo(base64) {
     return atob(base64).split(",");
