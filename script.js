@@ -2,13 +2,11 @@ let tempoRestante = localStorage.getItem('tempoRestante') ? parseInt(localStorag
 let tentativasRestantes = localStorage.getItem('tentativasRestantes') ? parseInt(localStorage.getItem('tentativasRestantes')) : 3;
 let timer;
 
-const codigoCriptografado = "MTYsMjEsMzQsNTA=";
 
 function decodificarCodigo(base64) {
     return atob(base64).split(",");
 }
 
-const codigoCorreto = decodificarCodigo(codigoCriptografado);
 
 function formatarTempo(segundos) {
     let minutos = Math.floor(segundos / 60);
@@ -86,3 +84,1852 @@ function changeToGreenTheme() {
 
 iniciarTimer();
 console.log("Inspecione o código fonte do site");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+const codigoCriptografado = "MTYsMjEsMzQsNTA=";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+var codigoCriptografadoss = "MTYsMjEsMzQsMXAXT";
+
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+const codigoCorreto = decodificarCodigo(codigoCriptografado);
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+var texto ="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was "
+
